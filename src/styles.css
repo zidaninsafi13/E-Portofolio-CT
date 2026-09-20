@@ -2770,8 +2770,11 @@ a.showcase-action:hover {
 .document-preview-dialog {
   display: grid;
   width: min(1180px, 100%);
+  height: min(820px, calc(100vh - 48px));
   max-height: min(820px, calc(100vh - 48px));
+  min-height: 0;
   overflow: hidden;
+  grid-template-rows: auto minmax(0, 1fr);
   border: 1px solid rgb(255 255 255 / 58%);
   border-radius: 22px;
   background: var(--color-surface);
@@ -2823,6 +2826,8 @@ a.showcase-action:hover {
 .document-preview-layout {
   display: grid;
   min-height: 0;
+  min-width: 0;
+  overscroll-behavior: contain;
   grid-template-columns: minmax(0, 1.45fr) minmax(290px, .55fr);
 }
 
@@ -2951,6 +2956,7 @@ a.showcase-action:hover {
   }
 
   .document-preview-dialog {
+    height: calc(100vh - 24px);
     max-height: calc(100vh - 24px);
     border-radius: 18px;
   }
@@ -2963,6 +2969,7 @@ a.showcase-action:hover {
   .document-preview-layout {
     overflow-y: auto;
     grid-template-columns: 1fr;
+    -webkit-overflow-scrolling: touch;
   }
 
   .document-preview-frame {
