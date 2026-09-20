@@ -2973,6 +2973,7 @@ a.showcase-action:hover {
   }
 
   .document-preview-frame {
+    min-height: calc(52vh + 20px);
     padding: 10px;
   }
 
