@@ -13,6 +13,7 @@ const topic4Worksheet3 = new URL("../../tugas/Topik-4-CT-Dalam-Kurikulum/4.D.Pem
 const topic5Worksheet1 = new URL("../../tugas/Topik-5-CT-dan-Projek/5.C.1.Unggah-Lembar-Kerja-11-(Kelompok).pdf", import.meta.url).href;
 const topic5Worksheet2 = new URL("../../tugas/Topik-5-CT-dan-Projek/5.C.2.Unggah-Lembar-Kerja-12-(Kelompok).pdf", import.meta.url).href;
 const topic5Worksheet3 = new URL("../../tugas/Topik-5-CT-dan-Projek/5.C.3.Unggah-Lembar-Kerja-13-(Kelompok).pdf", import.meta.url).href;
+const topic5Worksheet4 = new URL("../../tugas/Topik-5-CT-dan-Projek/5.D. Presentasi_Rancangan_Integrasi_CT_dalam_Projek_yang_Dipilih.pdf", import.meta.url).href;
 const topic6Worksheet1 = new URL("../../tugas/Topik-6-Integrasi-CT-dalam-Mata-Pelajaran/6.B.1.Unggah-Lembar-Kerja-15-(Individu).pdf", import.meta.url).href;
 const topic6Worksheet2 = new URL("../../tugas/Topik-6-Integrasi-CT-dalam-Mata-Pelajaran/6.C.1.Unggah-Lembar-Kerja-16-(Kelompok).pdf", import.meta.url).href;
 const topic6Worksheet3 = new URL("../../tugas/Topik-6-Integrasi-CT-dalam-Mata-Pelajaran/6.D.1.Unggah-Lembar-Kerja-17-(Kelompok).pdf", import.meta.url).href;
@@ -150,6 +151,14 @@ export const topics: Topic[] = [
         outcome: "Integrasi CT mengubah projek dari sekadar menghasilkan miniatur menjadi proses yang terstruktur, logis, berbasis data, dan reflektif.",
         keyPoints: ["Sebelum dan sesudah CT", "Data dan pengujian", "Perbaikan iteratif", "Komunikasi hasil projek"],
         documentUrl: topic5Worksheet3, documentLabel: "LK 13 - Perbedaan Projek STEM",
+      },
+      {
+        id: "5-d", code: "5.D", slug: "catatan-perbaikan-presentasi", title: "Catatan Perbaikan Presentasi",
+        explanation: "Catatan perbaikan rancangan integrasi CT ke projek STEM berdasarkan masukan dari dosen dan kelompok lain.",
+        context: "Kelompok memperbaiki rancangan miniatur lapangan bola basket dari bahan bekas dengan memperjelas desain, skala, pembagian bagian, pemilihan bahan, langkah kerja, serta pengujian produk.",
+        outcome: "Rancangan projek menjadi lebih jelas, sistematis, terukur, dan dapat dievaluasi melalui pencatatan data serta perbaikan berdasarkan hasil pengujian.",
+        keyPoints: ["Perbaikan desain dan skala", "Dekomposisi pembuatan miniatur", "Pemilihan bahan sesuai fungsi", "Pengujian dan pencatatan data"],
+        documentUrl: topic5Worksheet4, documentLabel: "LK 14 - Catatan Perbaikan Presentasi",
       },
     ],
   },
